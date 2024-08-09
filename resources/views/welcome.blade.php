@@ -194,15 +194,21 @@
     <!-- About Me Section -->
     <section id="about" class="bg-slate py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold mb-8 text-beige">About Me</h2>
-            <p class="text-lg max-w-2xl mx-auto text-beige">
-                "I’m a web developer with 8 years of experience in building modern, responsive websites. I work with
-                both frontend and backend technologies, focusing on creating seamless, user-friendly, and accessible web
-                experiences."
+            <h2 class="text-4xl font-bold mb-8 text-dark-gray">About Me</h2>
+            <p class="text-lg max-w-2xl mx-auto text-dark-gray">
+                I’m a web developer with 8 years of experience in building modern, responsive websites. My skills cover
+                both frontend and backend technologies, with a focus on creating seamless, user-friendly, and accessible
+                web experiences.
             </p>
-            <a href="#contact" class="inline-block mt-8 text-gold hover:underline">Learn More</a>
+            <a href="#contact"
+                class="inline-block mt-8 bg-gold text-navy py-3 px-6 rounded shadow hover:bg-yellow-400 font-semibold">
+                Learn More
+            </a>
+
+
         </div>
     </section>
+
 
     <hr class="border-t border-gold my-8">
 
@@ -224,16 +230,22 @@
     <hr class="border-t border-gold my-8">
 
     <!-- Footer -->
-    <footer class="bg-slate text-beige py-4">
+    <!-- Footer -->
+    <footer class="bg-slate text-dark-gray py-4">
         <div class="container mx-auto text-center">
             <p>&copy; 2024 Miriam Araújo. All rights reserved.</p>
             <div class="mt-2 space-x-4">
-                <a href="#home" class="hover:underline text-beige">Home</a>
-                <a href="#about" class="hover:underline text-beige">About</a>
-                <a href="#contact" class="hover:underline text-beige">Contact</a>
+                <a href="#home"
+                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">Home</a>
+                <a href="#about"
+                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">About</a>
+                <a href="#contact"
+                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">Contact</a>
             </div>
         </div>
     </footer>
+
+
 
 </body>
 
