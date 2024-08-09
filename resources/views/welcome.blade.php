@@ -21,24 +21,6 @@
         content="Explore Miriam Araújo's web development portfolio. Expert in HTML, CSS, JavaScript, PHP, and accessibility.">
     <meta name="twitter:image" content="path-to-your-image.jpg">
     <link rel="icon" href="path-to-favicon.ico" type="image/x-icon">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Miriam Araújo",
-      "jobTitle": "Web Developer",
-      "url": "https://yourwebsite.com",
-      "sameAs": [
-        "https://www.linkedin.com/in/yourprofile",
-        "https://github.com/yourprofile"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Your Company"
-      ],
-      "image": "path-to-your-image.jpg"
-    }
-    </script>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -55,6 +37,36 @@
 
         .hover-bg-brass:hover {
             background-color: #DAA520;
+        }
+
+        /* Custom Styles for the Let's Work Together Section */
+        .contact-section {
+            background-image: url('path-to-your-background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 3rem 2rem;
+            border-radius: 1rem;
+        }
+
+        .contact-overlay {
+            background: rgba(0, 0, 0, 0.7);
+            /* Dark overlay */
+            padding: 2rem;
+            border-radius: 1rem;
+        }
+
+        .contact-icons a {
+            display: inline-block;
+            margin: 0 1rem;
+            font-size: 2rem;
+            color: #B8860B;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .contact-icons a:hover {
+            transform: scale(1.1);
+            color: #DAA520;
         }
     </style>
 </head>
@@ -228,27 +240,51 @@
     </section>
 
 
-
-
-
-
     <hr class="border-t border-brass my-8">
 
-    <!-- Contact Section -->
-    <section id="contact" class="bg-navy py-16 text-center">
+
+
+
+
+    <section id="contact" class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold mb-8 text-beige">Let's Work Together</h2>
-            <p class="text-lg mb-4 text-beige">If you'd like to collaborate or have any questions, feel free to reach
-                out to me.</p>
-            <a href="mailto:email@example.com"
-                class="inline-block bg-brass text-navy py-3 px-6 rounded shadow hover:bg-gold-dark">Get in Touch</a>
-            <div class="mt-8 space-x-4">
-                <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186"
-                    class="text-brass hover:underline">LinkedIn</a>
-                <a href="https://github.com/M-Araujo/M-Araujo" class="text-brass hover:underline">GitHub</a>
+            <div
+                class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto max-w-3xl flex flex-col md:flex-row items-center">
+                <!-- Image Section -->
+                <div class="w-full md:w-2/5 mb-8 md:mb-0">
+                    <img src="{{ url('/images/collaboration.webp') }}" alt="Contact Me"
+                        class="rounded-lg shadow-lg mx-auto md:mx-0 w-full md:w-3/4">
+                </div>
+                <!-- Contact Info Section -->
+                <div class="md:ml-8 w-full md:w-3/5 text-left">
+                    <!-- Decorative Element -->
+                    <div class="w-12 h-1 bg-brass mx-auto md:mx-0 mb-6 rounded"></div>
+                    <h2 class="text-4xl font-bold mb-4 text-dark-gray">Let's Work Together</h2>
+                    <!-- Divider Line -->
+                    <hr class="w-24 border-brass mx-auto md:mx-0 mb-8">
+                    <p class="text-lg text-dark-gray leading-relaxed">If you'd like to collaborate or have any
+                        questions, feel free to reach out to me.</p>
+                    <a href="mailto:email@example.com"
+                        class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
+                        Get in Touch
+                    </a>
+                    <div class="mt-8 space-x-4 contact-icons">
+                        <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186" class="text-brass"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/M-Araujo/M-Araujo" class="text-brass"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
 
     <hr class="border-t border-brass my-8">
 
