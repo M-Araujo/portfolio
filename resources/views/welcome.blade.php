@@ -35,7 +35,7 @@
       "worksFor": {
         "@type": "Organization",
         "name": "Your Company"
-      },
+      ],
       "image": "path-to-your-image.jpg"
     }
     </script>
@@ -44,6 +44,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link rel="stylesheet" href="/css/main.css">
+    <style>
+        .text-brass {
+            color: #B8860B;
+        }
+
+        .bg-brass {
+            background-color: #B8860B;
+        }
+
+        .hover-bg-brass:hover {
+            background-color: #DAA520;
+        }
+    </style>
 </head>
 
 <body class="font-sans text-beige bg-navy">
@@ -53,11 +66,11 @@
         <div class="container mx-auto max-w-screen-lg px-4 md:px-8 flex justify-between items-center">
             <a href="#home" class="text-2xl font-bold">Miriam Araújo</a>
             <ul class="flex space-x-4">
-                <li><a href="#home" class="hover-bg-gold py-2 px-3 rounded">Home</a></li>
-                <li><a href="#about" class="hover-bg-gold py-2 px-3 rounded">About</a></li>
-                <li><a href="#competencies" class="hover-bg-gold py-2 px-3 rounded">Competencies</a></li>
-                <li><a href="#technologies" class="hover-bg-gold py-2 px-3 rounded">Technologies</a></li>
-                <li><a href="#contact" class="hover-bg-gold py-2 px-3 rounded">Contact</a></li>
+                <li><a href="#home" class="hover-bg-brass py-2 px-3 rounded">Home</a></li>
+                <li><a href="#about" class="hover-bg-brass py-2 px-3 rounded">About</a></li>
+                <li><a href="#competencies" class="hover-bg-brass py-2 px-3 rounded">Competencies</a></li>
+                <li><a href="#technologies" class="hover-bg-brass py-2 px-3 rounded">Technologies</a></li>
+                <li><a href="#contact" class="hover-bg-brass py-2 px-3 rounded">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -83,17 +96,17 @@
             <p class="text-lg mt-2 text-dark-gray">Delivering seamless digital experiences with a focus on quality, user
                 engagement, and inclusivity.</p>
             <a href="#portfolio"
-                class="inline-block mt-8 bg-gold text-navy py-3 px-6 rounded shadow hover:bg-yellow-400">View My
+                class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow hover:bg-yellow-400">View My
                 Work</a>
         </div>
     </header>
 
-    <hr class="border-t border-gold my-8">
+    <hr class="border-t border-brass my-8">
 
     <!-- Competencies Section -->
     <section id="competencies" class="py-16 px-4 md:px-8">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold text-center mb-12">My Competencies</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 text-brass">My Competencies</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div
                     class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
@@ -132,9 +145,6 @@
                         search engines.</p>
                 </div>
 
-
-
-
                 <div
                     class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-green-600 hover:text-white">
                     <i class="fas fa-universal-access text-6xl text-navy mx-auto"></i>
@@ -148,12 +158,12 @@
     </section>
 
 
-    <hr class="border-t border-gold my-8">
+    <hr class="border-t border-brass my-8">
 
     <!-- Technologies Section -->
     <section id="technologies" class="py-16 px-4 md:px-8">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold text-center mb-12">Technologies I Use</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 text-brass">Technologies I Use</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div
                     class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
@@ -189,28 +199,40 @@
         </div>
     </section>
 
-    <hr class="border-t border-gold my-8">
+    <hr class="border-t border-brass my-8">
+
+
 
     <!-- About Me Section -->
-    <section id="about" class="bg-slate py-16 text-center">
+    <section id="about" class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold mb-8 text-dark-gray">About Me</h2>
-            <p class="text-lg max-w-2xl mx-auto text-dark-gray">
-                I’m a web developer with 8 years of experience in building modern, responsive websites. My skills cover
-                both frontend and backend technologies, with a focus on creating seamless, user-friendly, and accessible
-                web experiences.
-            </p>
-            <a href="#contact"
-                class="inline-block mt-8 bg-gold text-navy py-3 px-6 rounded shadow hover:bg-yellow-400 font-semibold">
-                Learn More
-            </a>
-
-
+            <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto max-w-3xl">
+                <!-- Decorative Element -->
+                <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+                <h2 class="text-4xl font-bold mb-4 text-dark-gray">About Me</h2>
+                <!-- Divider Line -->
+                <hr class="w-24 border-brass mx-auto mb-8">
+                <p class="text-lg max-w-2xl mx-auto text-dark-gray leading-relaxed">
+                    I’m a web developer with 8 years of experience in building modern, responsive websites. My skills
+                    cover
+                    both frontend and backend technologies, with a focus on creating seamless, user-friendly, and
+                    accessible
+                    web experiences.
+                </p>
+                <a href="#contact"
+                    class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
+                    Learn More
+                </a>
+            </div>
         </div>
     </section>
 
 
-    <hr class="border-t border-gold my-8">
+
+
+
+
+    <hr class="border-t border-brass my-8">
 
     <!-- Contact Section -->
     <section id="contact" class="bg-navy py-16 text-center">
@@ -219,18 +241,17 @@
             <p class="text-lg mb-4 text-beige">If you'd like to collaborate or have any questions, feel free to reach
                 out to me.</p>
             <a href="mailto:email@example.com"
-                class="inline-block bg-gold text-navy py-3 px-6 rounded shadow hover:bg-gold-dark">Get in Touch</a>
+                class="inline-block bg-brass text-navy py-3 px-6 rounded shadow hover:bg-gold-dark">Get in Touch</a>
             <div class="mt-8 space-x-4">
                 <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186"
-                    class="text-gold hover:underline">LinkedIn</a>
-                <a href="https://github.com/M-Araujo/M-Araujo" class="text-gold hover:underline">GitHub</a>
+                    class="text-brass hover:underline">LinkedIn</a>
+                <a href="https://github.com/M-Araujo/M-Araujo" class="text-brass hover:underline">GitHub</a>
             </div>
         </div>
     </section>
 
-    <hr class="border-t border-gold my-8">
+    <hr class="border-t border-brass my-8">
 
-    <!-- Footer -->
     <!-- Footer -->
     <footer class="bg-slate text-dark-gray py-4">
         <div class="container mx-auto text-center">
@@ -245,9 +266,6 @@
             </div>
         </div>
     </footer>
-
-
-
 </body>
 
 </html>
