@@ -221,8 +221,9 @@
             <a href="mailto:email@example.com"
                 class="inline-block bg-gold text-navy py-3 px-6 rounded shadow hover:bg-gold-dark">Get in Touch</a>
             <div class="mt-8 space-x-4">
-                <a href="https://www.linkedin.com/in/yourprofile" class="text-gold hover:underline">LinkedIn</a>
-                <a href="https://github.com/yourprofile" class="text-gold hover:underline">GitHub</a>
+                <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186"
+                    class="text-gold hover:underline">LinkedIn</a>
+                <a href="https://github.com/M-Araujo/M-Araujo" class="text-gold hover:underline">GitHub</a>
             </div>
         </div>
     </section>
