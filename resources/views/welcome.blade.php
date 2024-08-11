@@ -1,92 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('components.layout')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miriam Araújo - Expert Web Developer | HTML, CSS, JavaScript, PHP</title>
-    <meta name="description"
-        content="Miriam Araújo is a skilled web developer with expertise in HTML, CSS, JavaScript, and PHP. Discover responsive web design, accessibility, and efficient coding solutions.">
-    <meta name="keywords"
-        content="Miriam Araújo, Web Developer, HTML, CSS, JavaScript, PHP, Responsive Design, Accessibility">
-    <meta property="og:title" content="Miriam Araújo - Web Developer">
-    <meta property="og:description"
-        content="Discover the portfolio of Miriam Araújo, a web developer specializing in HTML, CSS, JavaScript, PHP, and accessibility.">
-    <meta property="og:image" content="path-to-your-image.jpg">
-    <meta property="og:url" content="https://yourwebsite.com">
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Miriam Araújo - Web Developer">
-    <meta name="twitter:description"
-        content="Explore Miriam Araújo's web development portfolio. Expert in HTML, CSS, JavaScript, PHP, and accessibility.">
-    <meta name="twitter:image" content="path-to-your-image.jpg">
-    <link rel="icon" href="path-to-favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-    <link rel="stylesheet" href="/css/main.css">
-    <style>
-        .text-brass {
-            color: #B8860B;
-        }
-
-        .bg-brass {
-            background-color: #B8860B;
-        }
-
-        .hover-bg-brass:hover {
-            background-color: #DAA520;
-        }
-
-        /* Custom Styles for the Let's Work Together Section */
-        .contact-section {
-            background-image: url('path-to-your-background-image.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            padding: 3rem 2rem;
-            border-radius: 1rem;
-        }
-
-        .contact-overlay {
-            background: rgba(0, 0, 0, 0.7);
-            /* Dark overlay */
-            padding: 2rem;
-            border-radius: 1rem;
-        }
-
-        .contact-icons a {
-            display: inline-block;
-            margin: 0 1rem;
-            font-size: 2rem;
-            color: #B8860B;
-            transition: transform 0.3s ease, color 0.3s ease;
-        }
-
-        .contact-icons a:hover {
-            transform: scale(1.1);
-            color: #DAA520;
-        }
-    </style>
-</head>
-
-<body class="font-sans text-beige bg-navy">
-
-    <!-- Navigation Bar -->
-    <nav class="bg-navy text-beige p-4">
-        <div class="container mx-auto max-w-screen-lg px-4 md:px-8 flex justify-between items-center">
-            <a href="#home" class="text-2xl font-bold">Miriam Araújo</a>
-            <ul class="flex space-x-4">
-                <li><a href="#home" class="hover-bg-brass py-2 px-3 rounded">Home</a></li>
-                <li><a href="#about" class="hover-bg-brass py-2 px-3 rounded">About</a></li>
-                <li><a href="#competencies" class="hover-bg-brass py-2 px-3 rounded">Competencies</a></li>
-                <li><a href="#technologies" class="hover-bg-brass py-2 px-3 rounded">Technologies</a></li>
-                <li><a href="#contact" class="hover-bg-brass py-2 px-3 rounded">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
+@section('content')
     <!-- Hero Section -->
     <header id="home"
         class="hero-bg text-beige text-center py-20 px-4 md:px-8 mx-auto max-w-screen-lg rounded-2xl shadow-lg mt-8 flex items-center justify-between">
@@ -107,7 +21,7 @@
             <h1 class="text-5xl font-bold text-dark-gray">Building Reliable and Responsive Websites</h1>
             <p class="text-lg mt-2 text-dark-gray">Delivering seamless digital experiences with a focus on quality, user
                 engagement, and inclusivity.</p>
-            <a href="#portfolio"
+            <a href="/portfolio"
                 class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow hover:bg-yellow-400">View My
                 Work</a>
         </div>
@@ -243,9 +157,6 @@
     <hr class="border-t border-brass my-8">
 
 
-
-
-
     <section id="contact" class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
             <div
@@ -278,30 +189,4 @@
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-    <hr class="border-t border-brass my-8">
-
-    <!-- Footer -->
-    <footer class="bg-slate text-dark-gray py-4">
-        <div class="container mx-auto text-center">
-            <p>&copy; 2024 Miriam Araújo. All rights reserved.</p>
-            <div class="mt-2 space-x-4">
-                <a href="#home"
-                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">Home</a>
-                <a href="#about"
-                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">About</a>
-                <a href="#contact"
-                    class="hover:underline hover:font-semibold text-gray-500 hover:text-dark-gray">Contact</a>
-            </div>
-        </div>
-    </footer>
-</body>
-
-</html>
+@endsection

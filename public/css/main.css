@@ -203,3 +203,88 @@ p {
 .animate-bounce {
     animation: bounce 2s infinite;
 }
+
+
+.text-brass {
+    color: #B8860B;
+}
+
+.bg-brass {
+    background-color: #B8860B;
+}
+
+.hover-bg-brass:hover {
+    background-color: #DAA520;
+}
+
+/* Custom Styles for the Let's Work Together Section */
+.contact-section {
+    background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+.contact-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark overlay */
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #B8860B;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1);
+    color: #DAA520;
+}
+
+.text-brass {
+    color: #B8860B;
+}
+
+.bg-brass {
+    background-color: #B8860B;
+}
+
+.hover-bg-brass:hover {
+    background-color: #DAA520;
+}
+
+/* Custom Styles for the Let's Work Together Section */
+.contact-section {
+    /*   background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+}
+
+.contact-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark overlay */
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-icons a {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 2rem;
+    color: #B8860B;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    transform: scale(1.1);
+    color: #DAA520;
+}
