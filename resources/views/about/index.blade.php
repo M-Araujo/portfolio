@@ -81,13 +81,39 @@
         </div>
     </section>
 
+    <!-- Passion and Goals Section -->
+    <section class="py-16 text-center">
+        <div class="container mx-auto max-w-screen-lg">
+            <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
+
+                <h2 class="text-4xl font-bold text-navy mb-6">My Vision & Goals</h2>
+                <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
+                    My journey in web development is guided by a strong vision for creating seamless and functional digital
+                    experiences. I'm motivated by the limitless possibilities that technology offers and the constant
+                    evolution of this field. Every project I take on is an opportunity to learn, grow, and make a tangible
+                    impact.
+
+                    As I look to the future, I’m particularly interested in furthering my skills in areas like improving
+                    website accessibility, refining responsive design, and exploring more about full-stack development. My
+                    goal is to keep refining my skills, exploring practical solutions, and collaborating on projects that
+                    are meaningful and align with my values. Whether it's developing a user-friendly app or creating a
+                    simple, effective website, I'm committed to helping clients achieve their vision and succeed in the
+                    digital world.
+                </p>
+
+
+
+            </div>
+        </div>
+    </section>
+
     <!-- Outside of Work Section -->
     <section class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
                 <div class="flex items-center justify-center">
                     <img src="{{ url('images/about/meditation.webp') }}" alt="Meditation"
-                        class="w-32 h-32 mr-6 rounded-lg shadow-lg object-cover"> <!-- Increased Image Size -->
+                        class="w-24 h-24 mr-6 rounded-lg shadow-lg object-cover"> <!-- Image -->
                     <div class="text-left">
                         <h2 class="text-3xl font-bold text-navy mb-6">Outside of Work</h2>
                         <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
