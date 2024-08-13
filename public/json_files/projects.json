@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Restaurant Landing Page",
+        "description": "This project involved creating a responsive landing page for a restaurant, featuring a dynamic menu. The template will be available for online purchase soon. It was designed with restaurants in mind but can be adapted to other businesses.",
+        "image": "/images/projects/restaurant/1.png",
+        "details": {
+            "images": [
+                "/images/projects/restaurant/2.png",
+                "/images/projects/restaurant/3.png",
+                "/images/projects/restaurant/4.png"
+            ],
+            "video": "/videos/project/restaurant/video.mp4",
+            "case_study": {
+                "text": "This project focused on developing a highly responsive and interactive landing page for a restaurant. The primary goal was to create a visually appealing and user-friendly interface that enhances the customer's experience while navigating through the restaurant's offerings. The project emphasized the importance of accessibility, ensuring that all users, regardless of their device or abilities, could interact with the website seamlessly. Additionally, the design was crafted with adaptability in mind, allowing the template to be customized for various other business types, making it a versatile solution for different industries.",
+                "key_points": [
+                    { "title": "Objective", "content": "Create a responsive and dynamic landing page that provides an engaging user experience and drives customer interaction." },
+                    { "title": "Technologies Used", "content": "HTML, CSS, JavaScript, PHP, and responsive design frameworks." },
+                    { "title": "Challenges", "content": "Ensuring cross-device compatibility, optimizing load times, and implementing a dynamic, easily updatable menu system." },
+                    { "title": "Outcome", "content": "A polished, professional landing page template that is not only visually stunning but also adaptable to a variety of business needs." }
+                ],
+                "quote": "This template was developed with the flexibility to be adapted for various business needs, making it a valuable asset for anyone looking for a landing page and custom pages to kickstart their online business."
+            }
+        },
+        "link": "/portfolio/restaurant-landing-page"
+    }
+    
+    
+]
