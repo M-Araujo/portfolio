@@ -3,7 +3,7 @@
 @section('content')
     <section class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
-            <!-- Title -->
+            <!-- Main Title -->
             <h1 class="text-5xl font-bold mb-8 text-brass">About Me</h1>
 
             <!-- Timeline -->
@@ -11,14 +11,14 @@
                 <!-- Timeline Line -->
                 <div class="border-l-4 border-brass absolute h-full top-0 left-1/2 transform -translate-x-1/2"></div>
 
-                <!-- Timeline Item 1 -->
+                <!-- Timeline Items -->
                 <article class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
                     style="transition-delay: 0.2s;">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-left" aria-labelledby="timeline-item-1">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center">
-                                <i class="fas fa-graduation-cap text-brass text-4xl mr-4"></i> <!-- Icon -->
+                                <i class="fas fa-graduation-cap text-brass text-4xl mr-4"></i>
                                 <h3 id="timeline-item-1" class="text-2xl font-semibold text-dark-gray">Started my Web
                                     Development Journey at FLAG</h3>
                             </div>
@@ -29,7 +29,6 @@
                     </div>
                 </article>
 
-                <!-- Timeline Item 2 -->
                 <article
                     class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
                     style="transition-delay: 0.4s;">
@@ -39,7 +38,7 @@
                             <div class="flex items-center justify-end">
                                 <h3 id="timeline-item-2" class="text-2xl font-semibold text-dark-gray">Worked in Consulting
                                     Business</h3>
-                                <i class="fas fa-briefcase text-brass text-4xl ml-4"></i> <!-- Icon -->
+                                <i class="fas fa-briefcase text-brass text-4xl ml-4"></i>
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">I spent a couple of years in the
                                 consulting business, further honing my skills through diverse projects and real-world
@@ -48,14 +47,13 @@
                     </div>
                 </article>
 
-                <!-- Timeline Item 3 -->
                 <article class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
                     style="transition-delay: 0.6s;">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-left" aria-labelledby="timeline-item-3">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center">
-                                <i class="fas fa-laptop-code text-brass text-4xl mr-4"></i> <!-- Icon -->
+                                <i class="fas fa-laptop-code text-brass text-4xl mr-4"></i>
                                 <h3 id="timeline-item-3" class="text-2xl font-semibold text-dark-gray">Worked at a Digital
                                     Agency</h3>
                             </div>
@@ -65,7 +63,6 @@
                     </div>
                 </article>
 
-                <!-- Timeline Item 4 -->
                 <article
                     class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
                     style="transition-delay: 0.8s;">
@@ -75,7 +72,7 @@
                             <div class="flex items-center justify-end">
                                 <h3 id="timeline-item-4" class="text-2xl font-semibold text-dark-gray">Forging My Own Path
                                 </h3>
-                                <i class="fas fa-road text-brass text-4xl ml-4"></i> <!-- Icon -->
+                                <i class="fas fa-road text-brass text-4xl ml-4"></i>
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">I am now hopeful to forge my own path in
                                 web development, bringing my experience and dedication to new opportunities.</p>
@@ -89,10 +86,11 @@
     <!-- Skills & Expertise Section -->
     <section class="py-16 text-center" aria-labelledby="skills-title">
         <div class="container mx-auto max-w-screen-lg">
-            <h1 id="skills-title" class="text-5xl font-bold mb-8 text-brass">Skills & Expertise</h1>
-
-            <!-- Skills & Expertise Description -->
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
+                <!-- Decorative Element -->
+                <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+                <h1 id="skills-title" class="text-4xl font-bold mb-8 text-dark-gray">Skills & Expertise</h1>
+                <!-- Reduced Font Size -->
                 <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
                     My web development journey has been centered on building websites that are clean, responsive, and easy
                     to use. I have a solid understanding of HTML, CSS, JavaScript, and PHP, and I’m dedicated to improving
@@ -114,9 +112,11 @@
             </div>
 
             <!-- Skills Badges Section -->
-            <section class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
+            <div class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
                 aria-labelledby="skills-badges">
-                <h2 id="skills-badges" class="text-3xl font-bold text-navy mb-6">Languages & Frameworks</h2>
+                <!-- Decorative Element -->
+                <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+                <h2 id="skills-badges" class="text-3xl font-bold text-dark-gray mb-6">Languages & Frameworks</h2>
                 <div class="flex flex-wrap justify-center space-x-4">
                     <span
                         class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">HTML</span>
@@ -135,12 +135,14 @@
                     <span
                         class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">jQuery</span>
                 </div>
-            </section>
+            </div>
 
             <!-- Specialties Section -->
-            <section class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
+            <div class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
                 aria-labelledby="specialties-title">
-                <h2 id="specialties-title" class="text-3xl font-bold text-navy mb-6">Specialties</h2>
+                <!-- Decorative Element -->
+                <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+                <h2 id="specialties-title" class="text-3xl font-bold text-dark-gray mb-6">Specialties</h2>
                 <div>
                     <article class="mb-6">
                         <h3 class="text-2xl font-bold text-dark-gray">Responsive Design</h3>
@@ -167,7 +169,7 @@
                         </p>
                     </article>
                 </div>
-            </section>
+            </div>
         </div>
     </section>
 
@@ -175,11 +177,14 @@
     <section class="py-16 text-center" aria-labelledby="outside-work-title">
         <div class="container mx-auto max-w-screen-lg">
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
+                <!-- Decorative Element -->
+                <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+                <!-- Center Align Title -->
+                <h2 id="outside-work-title" class="text-3xl font-bold text-dark-gray mb-6">Outside of Work</h2>
                 <div class="flex items-center justify-center">
                     <img src="{{ url('images/about/meditation.webp') }}" alt="Meditation"
-                        class="w-24 h-24 mr-6 rounded-lg shadow-lg object-cover"> <!-- Image -->
+                        class="w-24 h-24 mr-6 rounded-lg shadow-lg object-cover">
                     <div class="text-left">
-                        <h2 id="outside-work-title" class="text-3xl font-bold text-navy mb-6">Outside of Work</h2>
                         <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
                             When I’m not coding, I enjoy being a gym lover, which helps me stay physically active and
                             energized. I also have a passion for meditation and energy healing (Reiki), which keeps me
@@ -190,6 +195,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Add the fade-in animation using Tailwind CSS or custom CSS -->
     <style>

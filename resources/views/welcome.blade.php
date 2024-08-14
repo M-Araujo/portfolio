@@ -3,7 +3,7 @@
 @section('content')
     <!-- Hero Section -->
     <header id="home"
-        class="hero-bg text-beige text-center py-20 px-4 md:px-8 mx-auto max-w-screen-lg rounded-2xl shadow-lg mt-8 flex items-center justify-between">
+        class="hero-bg text-beige text-center py-20 px-4 md:px-8 mx-auto max-w-screen-lg rounded-2xl shadow-lg mt-8 flex flex-col md:flex-row items-center justify-between">
         <!-- Animated Circles -->
         <div class="circle"></div>
         <div class="circle"></div>
@@ -35,7 +35,7 @@
             <h2 class="text-4xl font-bold text-center mb-12 text-brass">My Competencies</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-html5-plain-wordmark colored w-24 h-24 text-6xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mb-4 text-navy">Frontend Development</h3>
                     <p class="text-navy">Comfortable working with HTML, CSS, and JavaScript to create responsive and
@@ -43,7 +43,7 @@
                 </div>
 
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-green-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-php-plain w-24 h-24 text-6xl text-purple-600 mx-auto"></i>
                     <h3 class="text-2xl font-semibold mb-4 text-navy">Backend Development</h3>
                     <p class="text-navy">With experience in PHP, MySQL, and Laravel, I focus on creating robust
@@ -51,20 +51,21 @@
                 </div>
 
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-yellow-500 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-css3-plain w-24 h-24 text-6xl text-blue-600 mx-auto"></i>
                     <h3 class="text-2xl font-semibold mb-4 text-navy">Responsive Design</h3>
                     <p class="text-navy">Ensuring websites look great on all devices with modern design practices.</p>
                 </div>
+
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-red-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-laravel-plain w-24 h-24 text-6xl text-red-600 mx-auto"></i>
                     <h3 class="text-2xl font-semibold mb-4 text-navy">API Integration</h3>
                     <p class="text-navy">Experience in integrating third-party APIs for seamless functionality.</p>
                 </div>
 
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-green-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="fas fa-search w-24 h-24 text-6xl text-green-800 mx-auto mb-0"></i>
                     <h3 class="text-2xl font-semibold -mt-8 mb-4 text-navy">Search Engine Optimization (SEO)</h3>
                     <p class="text-navy">Focused on the optimization of websites for better visibility and ranking on
@@ -72,7 +73,7 @@
                 </div>
 
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-green-600 hover:text-white">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white">
                     <i class="fas fa-universal-access text-6xl text-navy mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-2 text-navy">Web Accessibility (a11y)</h3>
                     <p class="text-navy">Ensuring websites are accessible to all users, including those with
@@ -83,7 +84,6 @@
         </div>
     </section>
 
-
     <hr class="border-t border-brass my-8">
 
     <!-- Technologies Section -->
@@ -92,32 +92,32 @@
             <h2 class="text-4xl font-bold text-center mb-12 text-brass">Technologies I Use</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-html5-plain-wordmark colored w-28 h-28 text-7xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-6 text-navy">HTML5</h3>
                 </div>
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-css3-plain-wordmark colored w-28 h-28 text-7xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-6 text-navy">CSS3</h3>
                 </div>
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-javascript-plain colored w-28 h-28 text-7xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-6 text-navy">JavaScript</h3>
                 </div>
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-php-plain colored w-28 h-28 text-7xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-6 text-navy">PHP</h3>
                 </div>
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-laravel-plain-wordmark colored w-32 h-32 text-8xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold -mt-0 text-navy">Laravel</h3>
                 </div>
                 <div
-                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:scale-105">
+                    class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
                     <i class="devicon-mysql-plain-wordmark colored w-28 h-28 text-7xl mx-auto"></i>
                     <h3 class="text-2xl font-semibold mt-6 text-navy">MySQL</h3>
                 </div>
@@ -126,8 +126,6 @@
     </section>
 
     <hr class="border-t border-brass my-8">
-
-
 
     <!-- About Me Section -->
     <section id="about" class="py-16 text-center">
@@ -153,10 +151,9 @@
         </div>
     </section>
 
-
     <hr class="border-t border-brass my-8">
 
-
+    <!-- Contact Section -->
     <section id="contact" class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
             <div
