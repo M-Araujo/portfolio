@@ -12,31 +12,33 @@
                 <div class="border-l-4 border-brass absolute h-full top-0 left-1/2 transform -translate-x-1/2"></div>
 
                 <!-- Timeline Item 1 -->
-                <div class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
+                <article class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
                     style="transition-delay: 0.2s;">
                     <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-left">
+                    <div class="order-1 w-5/12 px-1 py-4 text-left" aria-labelledby="timeline-item-1">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center">
                                 <i class="fas fa-graduation-cap text-brass text-4xl mr-4"></i> <!-- Icon -->
-                                <h3 class="text-2xl font-semibold text-dark-gray">Started my Web Development Journey at FLAG
-                                </h3>
+                                <h3 id="timeline-item-1" class="text-2xl font-semibold text-dark-gray">Started my Web
+                                    Development Journey at FLAG</h3>
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">In 2016, I began my journey by taking a
                                 full-stack course at FLAG where I learned the principles of HTML, CSS, JavaScript, and PHP.
                             </p>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- Timeline Item 2 -->
-                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
+                <article
+                    class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
                     style="transition-delay: 0.4s;">
                     <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                    <div class="order-1 w-5/12 px-1 py-4 text-right" aria-labelledby="timeline-item-2">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center justify-end">
-                                <h3 class="text-2xl font-semibold text-dark-gray">Worked in Consulting Business</h3>
+                                <h3 id="timeline-item-2" class="text-2xl font-semibold text-dark-gray">Worked in Consulting
+                                    Business</h3>
                                 <i class="fas fa-briefcase text-brass text-4xl ml-4"></i> <!-- Icon -->
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">I spent a couple of years in the
@@ -44,78 +46,140 @@
                                 challenges.</p>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- Timeline Item 3 -->
-                <div class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
+                <article class="mb-8 flex justify-between items-center w-full right-timeline fade-in-on-scroll"
                     style="transition-delay: 0.6s;">
                     <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-left">
+                    <div class="order-1 w-5/12 px-1 py-4 text-left" aria-labelledby="timeline-item-3">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center">
                                 <i class="fas fa-laptop-code text-brass text-4xl mr-4"></i> <!-- Icon -->
-                                <h3 class="text-2xl font-semibold text-dark-gray">Worked at a Digital Agency</h3>
+                                <h3 id="timeline-item-3" class="text-2xl font-semibold text-dark-gray">Worked at a Digital
+                                    Agency</h3>
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">For about four years, I contributed to a
                                 variety of web projects at a digital agency, continuing to develop my skills.</p>
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <!-- Timeline Item 4 -->
-                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
+                <article
+                    class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline fade-in-on-scroll"
                     style="transition-delay: 0.8s;">
                     <div class="order-1 w-5/12"></div>
-                    <div class="order-1 w-5/12 px-1 py-4 text-right">
+                    <div class="order-1 w-5/12 px-1 py-4 text-right" aria-labelledby="timeline-item-4">
                         <div class="bg-beige p-6 rounded-lg shadow-xl border border-gray-300">
                             <div class="flex items-center justify-end">
-                                <h3 class="text-2xl font-semibold text-dark-gray">Forging My Own Path</h3>
+                                <h3 id="timeline-item-4" class="text-2xl font-semibold text-dark-gray">Forging My Own Path
+                                </h3>
                                 <i class="fas fa-road text-brass text-4xl ml-4"></i> <!-- Icon -->
                             </div>
                             <p class="mt-4 text-lg text-dark-gray leading-relaxed">I am now hopeful to forge my own path in
                                 web development, bringing my experience and dedication to new opportunities.</p>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Passion and Goals Section -->
-    <section class="py-16 text-center">
+    <!-- Skills & Expertise Section -->
+    <section class="py-16 text-center" aria-labelledby="skills-title">
         <div class="container mx-auto max-w-screen-lg">
+            <h1 id="skills-title" class="text-5xl font-bold mb-8 text-brass">Skills & Expertise</h1>
+
+            <!-- Skills & Expertise Description -->
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
-
-                <h2 class="text-4xl font-bold text-navy mb-6">My Vision & Goals</h2>
                 <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
-                    My journey in web development is guided by a strong vision for creating seamless and functional digital
-                    experiences. I'm motivated by the limitless possibilities that technology offers and the constant
-                    evolution of this field. Every project I take on is an opportunity to learn, grow, and make a tangible
-                    impact.
-
-                    As I look to the future, I’m particularly interested in furthering my skills in areas like improving
-                    website accessibility, refining responsive design, and exploring more about full-stack development. My
-                    goal is to keep refining my skills, exploring practical solutions, and collaborating on projects that
-                    are meaningful and align with my values. Whether it's developing a user-friendly app or creating a
-                    simple, effective website, I'm committed to helping clients achieve their vision and succeed in the
-                    digital world.
+                    My web development journey has been centered on building websites that are clean, responsive, and easy
+                    to use. I have a solid understanding of HTML, CSS, JavaScript, and PHP, and I’m dedicated to improving
+                    my skills with each project I work on. While I’m continuously learning, I focus on making digital
+                    experiences that are both functional and visually pleasing.
                 </p>
 
+                <p class="text-xl text-dark-gray leading-relaxed tracking-wide mt-4">
+                    I pay special attention to responsive design and web accessibility, ensuring that the websites I create
+                    are accessible to all users and adapt well to different devices. I enjoy taking on new challenges and
+                    expanding my knowledge in web development.
+                </p>
 
-
+                <p class="text-xl text-dark-gray leading-relaxed tracking-wide mt-4">
+                    Currently, I’m particularly interested in improving my skills in website performance, enhancing user
+                    experience, and exploring more about full-stack development. My goal is to take on projects that help me
+                    grow as a developer.
+                </p>
             </div>
+
+            <!-- Skills Badges Section -->
+            <section class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
+                aria-labelledby="skills-badges">
+                <h2 id="skills-badges" class="text-3xl font-bold text-navy mb-6">Languages & Frameworks</h2>
+                <div class="flex flex-wrap justify-center space-x-4">
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">HTML</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">CSS</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">JavaScript</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">PHP</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Laravel</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Bootstrap</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Tailwind</span>
+                    <span
+                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">jQuery</span>
+                </div>
+            </section>
+
+            <!-- Specialties Section -->
+            <section class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
+                aria-labelledby="specialties-title">
+                <h2 id="specialties-title" class="text-3xl font-bold text-navy mb-6">Specialties</h2>
+                <div>
+                    <article class="mb-6">
+                        <h3 class="text-2xl font-bold text-dark-gray">Responsive Design</h3>
+                        <p class="text-lg text-dark-gray leading-relaxed mt-2">
+                            I focus on making sure that websites look and function well on all devices. I use modern CSS
+                            techniques and frameworks like Bootstrap and Tailwind to achieve this.
+                        </p>
+                    </article>
+
+                    <article class="mb-6">
+                        <h3 class="text-2xl font-bold text-dark-gray">Accessibility</h3>
+                        <p class="text-lg text-dark-gray leading-relaxed mt-2">
+                            Making the web accessible to everyone is important to me. I use best practices for web
+                            accessibility, including proper use of ARIA attributes, semantic HTML, and testing with
+                            assistive technologies.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3 class="text-2xl font-bold text-dark-gray">Performance Optimization</h3>
+                        <p class="text-lg text-dark-gray leading-relaxed mt-2">
+                            I work on optimizing website performance, making sure pages load quickly and efficiently by
+                            optimizing images, minimizing CSS and JavaScript, and leveraging browser caching.
+                        </p>
+                    </article>
+                </div>
+            </section>
         </div>
     </section>
 
     <!-- Outside of Work Section -->
-    <section class="py-16 text-center">
+    <section class="py-16 text-center" aria-labelledby="outside-work-title">
         <div class="container mx-auto max-w-screen-lg">
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
                 <div class="flex items-center justify-center">
                     <img src="{{ url('images/about/meditation.webp') }}" alt="Meditation"
                         class="w-24 h-24 mr-6 rounded-lg shadow-lg object-cover"> <!-- Image -->
                     <div class="text-left">
-                        <h2 class="text-3xl font-bold text-navy mb-6">Outside of Work</h2>
+                        <h2 id="outside-work-title" class="text-3xl font-bold text-navy mb-6">Outside of Work</h2>
                         <p class="text-xl text-dark-gray leading-relaxed tracking-wide">
                             When I’m not coding, I enjoy being a gym lover, which helps me stay physically active and
                             energized. I also have a passion for meditation and energy healing (Reiki), which keeps me
