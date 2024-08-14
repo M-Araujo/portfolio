@@ -111,31 +111,27 @@
                 </p>
             </div>
 
-            <!-- Skills Badges Section -->
-            <div class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
+
+
+            <section class="py-12 mt-8 bg-light-cream p-8 rounded-lg shadow-xl border border-gray-300"
                 aria-labelledby="skills-badges">
                 <!-- Decorative Element -->
                 <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
                 <h2 id="skills-badges" class="text-3xl font-bold text-dark-gray mb-6">Languages & Frameworks</h2>
+                <!-- Consistent title color -->
                 <div class="flex flex-wrap justify-center space-x-4">
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">HTML</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">CSS</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">JavaScript</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">PHP</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Laravel</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Bootstrap</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">Tailwind</span>
-                    <span
-                        class="inline-block bg-gray-200 text-gray-800 text-lg font-semibold py-2 px-4 rounded-full mb-2">jQuery</span>
+                    <span class="badge">HTML</span>
+                    <span class="badge">CSS</span>
+                    <span class="badge">JavaScript</span>
+                    <span class="badge">PHP</span>
+                    <span class="badge">Laravel</span>
+                    <span class="badge">Bootstrap</span>
+                    <span class="badge">Tailwind</span>
+                    <span class="badge">jQuery</span>
                 </div>
-            </div>
+            </section>
+
+
 
             <!-- Specialties Section -->
             <div class="py-12 mt-8 bg-beige p-8 rounded-lg shadow-xl border border-gray-300"
@@ -195,7 +191,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- Add the fade-in animation using Tailwind CSS or custom CSS -->
     <style>

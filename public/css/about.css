@@ -1,0 +1,38 @@
+/* Background Colors */
+.bg-sage-green {
+    background-color: #9AAE92;
+}
+
+.bg-light-cream {
+    background-color: #F5F5DC;
+}
+
+/* Text Colors */
+.text-deep-sage {
+    color: #556B2F;
+}
+
+.text-off-white {
+    color: #FAF0E6;
+}
+
+/* Accent Colors */
+.text-warm-gold {
+    color: #D4AF37;
+}
+
+/* Badge Styles */
+.badge {
+    background-color: #9AAE92;
+    color: #FAF0E6;
+    border: 1px solid #D4AF37;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+    background-color: #D4AF37;
+    color: #556B2F; /* Adjusting the color to ensure contrast */
+}

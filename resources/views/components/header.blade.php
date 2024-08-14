@@ -27,5 +27,5 @@
 
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/portfolio.css">
-
+    <link rel="stylesheet" href="/css/about.css">
 </head>
