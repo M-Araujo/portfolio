@@ -16,3 +16,4 @@ Route::get('/portfolio/{id}', [PortfolioController::class, 'show'])->name('portf
 Route::get('/about', [AboutController::class, 'index']);
 
 Route::get('/contact', [ContactController::class, 'index']);
+Route::post('/contact', [ContactController::class, 'submitContactForm'])->name('contact.submit');
