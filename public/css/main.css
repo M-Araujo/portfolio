@@ -289,3 +289,12 @@ p {
     color: #DAA520;
 }
 
+
+/* Accent Colors */
+.text-warm-gold{
+    color: #D4AF37;
+}
+
+.bg-warm-gold {
+    background-color: #D4AF37; /* Warm gold color */
+}

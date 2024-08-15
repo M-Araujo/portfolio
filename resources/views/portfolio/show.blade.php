@@ -1,12 +1,16 @@
 @extends('components.layout')
 
 @section('content')
+    <!-- Section -->
     <section class="py-16 text-center">
         <div class="container mx-auto max-w-screen-lg">
-            <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto">
-                <!-- Title at the Top -->
-                <h2 class="text-4xl font-bold mb-8 text-dark-gray">{{ $project['title'] }}</h2>
 
+            <!-- Title Outside the Main Card -->
+            <h1 class="text-4xl font-bold text-warm-gold mb-8">{{ $project['title'] }}</h1>
+
+            <!-- Main Content Card -->
+            <div class="p-8 rounded-lg mx-auto">
+                <!-- Project Images -->
                 <div class="flex flex-col md:flex-row">
                     <!-- Main Image -->
                     <div class="w-full md:w-2/3 mb-4 md:mb-0 md:pr-4">
@@ -26,9 +30,11 @@
                     </div>
                 </div>
 
-                <!-- Description Section -->
-                <div class="mt-8 text-left">
-                    <h3 class="text-2xl font-semibold text-dark-gray mb-4">Project Description</h3>
+                <!-- Description Section with Clearer Background -->
+                <div class="mt-8 text-left bg-light-cream p-6 rounded-lg shadow-xl">
+                    <!-- Decorative Golden Line -->
+                    <div class="w-12 h-1 bg-warm-gold mb-4 rounded mx-auto"></div>
+                    <h3 class="text-2xl font-semibold text-dark-gray mb-4 text-center">Project Description</h3>
                     <p class="text-lg text-dark-gray leading-relaxed mb-4">
                         {{ $project['description'] }}
                     </p>
@@ -41,20 +47,24 @@
 
                 <!-- Video Section -->
                 @if (isset($project['details']['video']))
-                    <div class="mt-8">
-                        <h3 class="text-2xl font-semibold text-dark-gray mb-4">Project Video</h3>
-                        <iframe class="w-full h-96 rounded-lg shadow-lg border border-gray-300"
-                            src="{{ $project['details']['video'] }}" frameborder="0" allowfullscreen
+                    <div class="mt-12 text-left bg-light-cream p-6 rounded-lg shadow-xl">
+                        <!-- Decorative Golden Line -->
+                        <div class="w-12 h-1 bg-warm-gold mb-4 rounded mx-auto"></div>
+                        <h3 class="text-2xl font-semibold text-dark-gray mb-4 text-center">Project Video</h3>
+                        <iframe class="w-full h-96 rounded-lg shadow-lg" src="{{ $project['details']['video'] }}"
+                            frameborder="0" allowfullscreen
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             sandbox="allow-scripts allow-same-origin allow-presentation">
                         </iframe>
                     </div>
                 @endif
 
-                <!-- Case Study Section -->
-                <div class="mt-12 text-left">
-                    <h3 class="text-2xl font-semibold text-dark-gray mb-4">Case Study</h3>
-                    <div class="case-study-content bg-white p-6 rounded-lg shadow-md border border-gray-200">
+                <!-- Case Study Section with Clearer Background -->
+                <div class="mt-12 text-left bg-light-cream p-6 rounded-lg shadow-xl">
+                    <!-- Decorative Golden Line -->
+                    <div class="w-12 h-1 bg-warm-gold mb-4 rounded mx-auto"></div>
+                    <h3 class="text-2xl font-semibold text-dark-gray mb-4 text-center">Case Study</h3>
+                    <div class="case-study-content">
                         <p class="text-lg text-dark-gray leading-relaxed mb-4">
                             {{ $project['details']['case_study']['text'] }}
                         </p>
