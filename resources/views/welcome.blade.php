@@ -89,7 +89,7 @@
     <!-- Technologies Section -->
     <section id="technologies" class="py-16 px-4 md:px-8">
         <div class="container mx-auto max-w-screen-lg">
-            <h2 class="text-4xl font-bold text-center mb-12 text-brass">Technologies I Use</h2>
+            <h2 class="text-4xl font-bold text-center mb-12 text-brass">Technologies</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div
                     class="competency-card bg-beige p-6 rounded-lg shadow-xl text-center border border-slate transition-transform duration-300 ease-in-out hover:bg-brass hover:text-white hover:scale-105">
