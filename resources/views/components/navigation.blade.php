@@ -9,7 +9,7 @@
               </li>
               <li><a href="/#technologies" class="hover-bg-brass py-2 px-3 rounded">Technologies</a>
               </li>
-              <li><a href="#contact" class="hover-bg-brass py-2 px-3 rounded">Contact</a></li>
+              <li><a href="/contact" class="hover-bg-brass py-2 px-3 rounded">Contact</a></li>
           </ul>
       </div>
   </nav>

@@ -143,7 +143,7 @@
                     accessible
                     web experiences.
                 </p>
-                <a href="#contact"
+                <a href="about"
                     class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
                     Learn More
                 </a>
