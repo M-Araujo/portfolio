@@ -52,6 +52,12 @@ p {
     background-size: cover;
 }
 
+
+.hero-main-img:hover {
+    /* Ensure no zoom on hover */
+    transform: none !important;
+}
+
 .circle {
     position: absolute;
     border-radius: 50%;

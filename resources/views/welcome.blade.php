@@ -13,7 +13,7 @@
 
         <div class="hero-content w-full md:w-1/2">
             <img src="{{ url('/images/self.jpg') }}" alt="Miriam Araújo"
-                class="rounded-full shadow-lg w-64 h-64 mx-auto md:mx-0">
+                class="rounded-full hero-main-img shadow-lg w-64 h-64 mx-auto md:mx-0">
         </div>
         <div class="hero-content w-full md:w-1/2 text-left mt-8 md:mt-0">
             <p class="text-xl font-light mb-4 text-dark-gray">Hi, I'm Miriam Araújo, a web developer dedicated to
