@@ -37,12 +37,19 @@
     </section>
 
     <!-- Call to Action -->
-    <section
-        class="cta-section container mx-auto max-w-screen-lg text-center py-12 bg-brass text-navy rounded-lg shadow-lg">
-        <h2 class="text-4xl font-bold mb-4">Interested in Working Together?</h2>
-        <p class="text-lg leading-relaxed mb-6">Contact me to discuss how we can collaborate on your next project.</p>
-        <a href="#contact"
-            class="inline-block bg-navy text-brass py-3 px-6 rounded shadow-lg hover:bg-dark-gray hover:text-beige transition duration-300">Get
-            in Touch</a>
+    <section class="container mx-auto max-w-screen-lg py-12 text-center">
+        <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300">
+            <!-- Decorative Line -->
+            <div class="w-12 h-1 bg-brass mx-auto mb-6 rounded"></div>
+            <h2 class="text-4xl font-bold text-dark-gray mb-4">Interested in Working Together?</h2>
+            <p class="text-lg text-dark-gray leading-relaxed mb-6">Contact me to discuss how we can collaborate on your next
+                project.</p>
+            <a href="#contact"
+                class="inline-block bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 hover:text-dark-gray transition duration-300">
+                Get in Touch
+            </a>
+        </div>
     </section>
+
+
 @endsection
