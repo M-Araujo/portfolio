@@ -14,7 +14,7 @@
                 <h1 class="text-3xl font-bold text-dark-gray mb-2">Contact Me</h1>
                 <p class="text-md text-dark-gray mb-6">I'm here to help and answer any questions you might have. Feel free to
                     reach out!</p>
-                <p class="text-lg font-semibold text-warm-gold">info@example.com</p>
+                <p class="text-lg font-semibold text-warm-gold">miriamaraujoweb@gmail.com</p>
             </div>
         </div>
     </section>
