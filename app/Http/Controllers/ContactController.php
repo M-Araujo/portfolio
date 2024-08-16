@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Mail\ContactFormMail;
+use Illuminate\Support\Facades\Mail;
 class ContactController extends Controller
 {
     public function index()
@@ -21,7 +22,8 @@ class ContactController extends Controller
             'message' => 'required|string|max:2000',
         ]);
 
-        // Process the form submission (send an email)
+        // Send the email
+        Mail::to('your-email@example.com')->send(new ContactFormMail($validatedData));
 
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
