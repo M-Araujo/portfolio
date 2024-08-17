@@ -20,11 +20,11 @@
                         </a>
                     </div>
                     <!-- Mosaic Gallery -->
-                    <div class="w-full md:w-1/3 grid grid-cols-2 gap-4">
+                    <div class="w-full md:w-1/3 grid grid-cols-2 gap-2">
                         @foreach ($project['details']['images'] as $image)
                             <a href="{{ url($image) }}" data-fancybox="gallery" class="block">
                                 <img src="{{ url($image) }}" alt="Gallery Image"
-                                    class="rounded-lg shadow-lg w-full object-cover transition duration-300 transform hover:scale-105 hover:shadow-xl">
+                                    class="rounded-lg shadow-lg w-full h-32 object-cover object-center transition duration-300 transform hover:scale-105 hover:shadow-xl">
                             </a>
                         @endforeach
                     </div>
