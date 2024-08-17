@@ -304,3 +304,26 @@ p {
 .bg-warm-gold {
     background-color: #D4AF37; /* Warm gold color */
 }
+
+
+/* Ensure that the hover state applies only when the link is not active */
+.nav-link {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #D4AF37; /* Brass color */
+    color: #1A202C; /* Navy color */
+}
+
+/* Active state styles */
+.nav-link.active {
+    background-color: #D4AF37; /* Brass color */
+    color: #1A202C; /* Navy color */
+}
+
+/* Prioritize the active state over hover */
+.nav-link.active:hover {
+    background-color: #D4AF37; /* Maintain the brass color */
+    color: #1A202C; /* Maintain the navy color */
+}

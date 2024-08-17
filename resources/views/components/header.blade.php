@@ -15,9 +15,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Miriam Araújo - Web Developer">
     <meta name="twitter:description"
-        content="Explore Miriam Araújo's web development portfolio. Expert in HTML, CSS, JavaScript, PHP, and accessibility.">
+        content="Explore Miriam Araújo's web development portfolio. With experience in HTML, CSS, JavaScript, PHP, and accessibility.">
     <meta name="twitter:image" content="{{ url('/images/self.jpg') }}">
-    <link rel="icon" href="{{ url('/images/tree.png') }}" type="image/x-icon">
+    <link rel="icon" href="{{ url('/images/logo.png') }}" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
