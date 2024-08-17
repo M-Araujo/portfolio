@@ -3,7 +3,7 @@
     <div class="container mx-auto max-w-screen-lg px-4 md:px-8 flex justify-between items-center">
         <!-- Logotype and Description -->
         <div class="flex items-center space-x-4">
-            <a href="/">
+            <a href="/" class="no-hover">
                 <img src="{{ url('/images/logo.png') }}" alt="Miriam Araújo Logo" class="h-10 w-auto">
             </a>
             <span class="text-lg font-light text-beige hidden md:block">Miriam Araújo's Portfolio</span>

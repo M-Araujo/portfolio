@@ -327,3 +327,13 @@ p {
     background-color: #D4AF37; /* Maintain the brass color */
     color: #1A202C; /* Maintain the navy color */
 }
+
+
+/* Ensure the logotype doesn't change on hover */
+.no-hover img {
+    transition: none; /* Remove transition for no hover effect */
+}
+
+.no-hover:hover img {
+    transform: none; /* Ensure no scaling or effects happen */
+}

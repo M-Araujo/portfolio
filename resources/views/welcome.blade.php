@@ -172,14 +172,14 @@
                     <hr class="w-24 border-brass mx-auto md:mx-0 mb-8">
                     <p class="text-lg text-dark-gray leading-relaxed">If you'd like to collaborate or have any
                         questions, feel free to reach out to me.</p>
-                    <a href="mailto:email@example.com"
+                    <a href="mailto:miriamaraujoweb@gmail.com" target="_blank"
                         class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
                         Get in Touch
                     </a>
                     <div class="mt-8 space-x-4 contact-icons">
-                        <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186" class="text-brass"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/M-Araujo/M-Araujo" class="text-brass"><i
+                        <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186" target="_blank"
+                            class="text-brass"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/M-Araujo/M-Araujo" target="_blank" class="text-brass"><i
                                 class="fab fa-github"></i></a>
                     </div>
                 </div>
