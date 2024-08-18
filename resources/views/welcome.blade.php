@@ -3,7 +3,8 @@
 @section('content')
     <!-- Hero Section -->
     <header id="home"
-        class="hero-bg text-beige text-center py-20 px-4 md:px-8 mx-auto max-w-screen-lg rounded-2xl shadow-lg mt-8 flex flex-col md:flex-row items-center justify-between">
+        class="hero-bg text-beige text-center py-12 px-4 sm:px-6 md:px-8 mx-auto max-w-screen-lg rounded-2xl shadow-lg mt-8 flex flex-col md:flex-row items-center justify-between overflow-hidden">
+
         <!-- Animated Circles -->
         <div class="circle"></div>
         <div class="circle"></div>
@@ -11,26 +12,30 @@
         <div class="circle"></div>
         <div class="circle"></div>
 
-        <div class="hero-content w-full md:w-1/2">
+        <!-- Hero Image -->
+        <div class="hero-content w-full md:w-1/2 mb-8 md:mb-0">
             <img src="{{ url('/images/self.jpg') }}" alt="Miriam Araújo"
-                class="rounded-full hero-main-img shadow-lg w-64 h-64 mx-auto md:mx-0">
+                class="rounded-full hero-main-img shadow-lg w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto md:mx-0">
         </div>
+
+        <!-- Hero Text -->
         <div class="hero-content w-full md:w-1/2 text-left mt-8 md:mt-0">
-            <p class="text-xl font-light mb-4 text-dark-gray">Hi, I'm Miriam Araújo, a web developer dedicated to
-                creating clean, efficient, and accessible code.</p>
-            <h1 class="text-5xl font-bold text-dark-gray">Building Reliable and Responsive Websites</h1>
-            <p class="text-lg mt-2 text-dark-gray">Delivering seamless digital experiences with a focus on quality, user
-                engagement, and inclusivity.</p>
+            <p class="text-lg sm:text-xl md:text-2xl font-light mb-4 text-dark-gray">Hi, I'm Miriam Araújo, a web developer
+                dedicated to creating clean, efficient, and accessible code.</p>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-dark-gray">Building Reliable and Responsive Websites
+            </h1>
+            <p class="text-md sm:text-lg md:text-xl mt-2 text-dark-gray">Delivering seamless digital experiences with a
+                focus on quality, user engagement, and inclusivity.</p>
             <a href="/portfolio"
-                class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow hover:bg-yellow-400">View My
-                Work</a>
+                class="inline-block mt-8 bg-brass text-navy py-2 sm:py-3 px-4 sm:px-6 rounded shadow hover:bg-yellow-400">View
+                My Work</a>
         </div>
     </header>
 
     <hr class="border-t border-brass my-8">
 
     <!-- Competencies Section -->
-    <section id="competencies" class="py-16 px-4 md:px-8">
+    <section id="competencies" class="px-4 sm:px-6 md:px-8">
         <div class="container mx-auto max-w-screen-lg">
             <h2 class="text-4xl font-bold text-center mb-12 text-brass">My Competencies</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -87,7 +92,7 @@
     <hr class="border-t border-brass my-8">
 
     <!-- Technologies Section -->
-    <section id="technologies" class="py-16 px-4 md:px-8">
+    <section id="technologies" class="py-16 px-4 sm:px-6 md:px-8">
         <div class="container mx-auto max-w-screen-lg">
             <h2 class="text-4xl font-bold text-center mb-12 text-brass">Technologies</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -128,7 +133,7 @@
     <hr class="border-t border-brass my-8">
 
     <!-- About Me Section -->
-    <section id="about" class="py-16 text-center">
+    <section id="about" class="py-16 px-4 sm:px-6 md:px-8 text-center">
         <div class="container mx-auto max-w-screen-lg">
             <div class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto max-w-3xl">
                 <!-- Decorative Element -->
@@ -155,7 +160,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="py-16 text-center">
-        <div class="container mx-auto max-w-screen-lg">
+        <div class="container mx-auto max-w-screen-lg px-4 sm:px-6 md:px-8">
             <div
                 class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto max-w-3xl flex flex-col md:flex-row items-center">
                 <!-- Image Section -->
