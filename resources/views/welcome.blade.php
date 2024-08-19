@@ -15,11 +15,11 @@
         <!-- Hero Image -->
         <div class="hero-content w-full md:w-1/2 mb-8 md:mb-0">
             <img src="{{ url('/images/self.jpg') }}" alt="Miriam Araújo"
-                class="rounded-full hero-main-img shadow-lg w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto md:mx-0">
+                class="rounded-full hero-main-img shadow-lg w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto">
         </div>
 
         <!-- Hero Text -->
-        <div class="hero-content w-full md:w-1/2 text-left mt-8 md:mt-0">
+        <div class="hero-content w-full md:w-1/2 text-center md:text-left mt-4 md:mt-0 px-4 sm:px-6 md:px-0">
             <p class="text-lg sm:text-xl md:text-2xl font-light mb-4 text-dark-gray">Hi, I'm Miriam Araújo, a web developer
                 dedicated to creating clean, efficient, and accessible code.</p>
             <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold text-dark-gray">Building Reliable and Responsive Websites
@@ -31,6 +31,7 @@
                 My Work</a>
         </div>
     </header>
+
 
     <hr class="border-t border-brass my-8">
 
@@ -164,24 +165,24 @@
             <div
                 class="bg-beige p-8 rounded-lg shadow-xl border border-gray-300 mx-auto max-w-3xl flex flex-col md:flex-row items-center">
                 <!-- Image Section -->
-                <div class="w-full md:w-2/5 mb-8 md:mb-0">
+                <div class="w-full md:w-2/5 mb-8 md:mb-0 flex justify-center md:justify-start">
                     <img src="{{ url('/images/collaboration.webp') }}" alt="Contact Me"
-                        class="rounded-lg shadow-lg mx-auto md:mx-0 w-full md:w-3/4">
+                        class="rounded-lg shadow-lg mx-auto md:mx-0 w-3/4">
                 </div>
                 <!-- Contact Info Section -->
-                <div class="md:ml-8 w-full md:w-3/5 text-left">
+                <div class="md:ml-8 w-full md:w-3/5 text-center md:text-left">
                     <!-- Decorative Element -->
                     <div class="w-12 h-1 bg-brass mx-auto md:mx-0 mb-6 rounded"></div>
-                    <h2 class="text-4xl font-bold mb-4 text-dark-gray">Let's Work Together</h2>
+                    <h2 class="text-3xl sm:text-4xl font-bold mb-4 text-dark-gray">Let's Work Together</h2>
                     <!-- Divider Line -->
                     <hr class="w-24 border-brass mx-auto md:mx-0 mb-8">
-                    <p class="text-lg text-dark-gray leading-relaxed">If you'd like to collaborate or have any
+                    <p class="text-md sm:text-lg text-dark-gray leading-relaxed">If you'd like to collaborate or have any
                         questions, feel free to reach out to me.</p>
                     <a href="mailto:miriamaraujoweb@gmail.com" target="_blank"
-                        class="inline-block mt-8 bg-brass text-navy py-3 px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
+                        class="inline-block mt-8 bg-brass text-navy py-2 sm:py-3 px-4 sm:px-6 rounded shadow-lg hover:bg-yellow-400 font-semibold transition duration-300">
                         Get in Touch
                     </a>
-                    <div class="mt-8 space-x-4 contact-icons">
+                    <div class="mt-8 space-x-4 contact-icons flex justify-center md:justify-start">
                         <a href="https://www.linkedin.com/in/miriam-ara%C3%BAjo-05a6a8186" target="_blank"
                             class="text-brass"><i class="fab fa-linkedin"></i></a>
                         <a href="https://github.com/M-Araujo/M-Araujo" target="_blank" class="text-brass"><i
