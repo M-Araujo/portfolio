@@ -40,11 +40,7 @@
                     <p class="text-lg text-dark-gray leading-relaxed mb-4">
                         {{ $project['description'] }}
                     </p>
-                    <p class="text-lg text-dark-gray leading-relaxed">
-                        This project was developed to demonstrate the capabilities of creating a dynamic and responsive web
-                        application. The main focus was on delivering a seamless user experience while maintaining high
-                        performance and accessibility standards.
-                    </p>
+
                 </div>
 
                 <!-- Video Section -->

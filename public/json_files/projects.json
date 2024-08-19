@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Restaurant Landing Page",
-        "description": "This project involved creating a responsive landing page for a restaurant, featuring a dynamic menu. The template will be available for online purchase soon. It was designed with restaurants in mind but can be adapted to other businesses.",
+        "description": "This project involved creating a responsive multi-page package for a restaurant, including a landing page, menu, services, and contact sections. Designed to simplify the process for clients, this template offers a ready-made solution for presenting their business online. While tailored for restaurants, it can easily be adapted for other types of businesses. The package will soon be available for online purchase.",
         "image": "/images/projects/restaurant/1.png",
         "details": {
             "images": [
@@ -14,7 +14,7 @@
             "case_study": {
                 "text": "This project focused on developing a highly responsive and interactive landing page for a restaurant. The primary goal was to create a visually appealing and user-friendly interface that enhances the customer's experience while navigating through the restaurant's offerings. The project emphasized the importance of accessibility, ensuring that all users, regardless of their device or abilities, could interact with the website seamlessly. Additionally, the design was crafted with adaptability in mind, allowing the template to be customized for various other business types, making it a versatile solution for different industries.",
                 "key_points": [
-                    { "title": "Objective", "content": "Create a responsive and dynamic landing page that provides an engaging user experience and drives customer interaction." },
+                    { "title": "Objective", "content": "Create a responsive landing page that provides an engaging user experience and drives customer interaction." },
                     { "title": "Technologies Used", "content": "HTML, CSS, JavaScript, and responsive design frameworks." },
                     { "title": "Challenges", "content": "Ensuring cross-device compatibility, optimizing load times, and implementing a dynamic, easily updatable menu system." },
                     { "title": "Outcome", "content": "A polished, professional landing page template that is not only visually stunning but also adaptable to a variety of business needs." }
