@@ -2,13 +2,13 @@
 <nav class="bg-navy text-beige p-4">
     <div class="container mx-auto max-w-screen-lg px-4 md:px-8 flex justify-between items-center">
         <!-- Logotype and Description -->
-        <div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-4">
+        <div class="flex items-center space-x-2 md:space-x-4">
             <a href="/" class="no-hover flex items-center space-x-2">
                 <img src="{{ url('/images/logo.png') }}" alt="Miriam Araújo Logo" class="h-10 w-auto">
-                <span class="text-lg font-light text-beige md:hidden">Miriam Araújo's Portfolio</span>
+                <span class="text-lg font-light text-beige">Miriam Araújo's Portfolio</span>
             </a>
-            <span class="text-lg font-light text-beige hidden md:block">Miriam Araújo's Portfolio</span>
         </div>
+
 
 
         <!-- Hamburger Menu for Mobile -->

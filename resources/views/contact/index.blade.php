@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Contact Header Section -->
-    <section class="py-12 text-center bg-beige">
+    <section class="py-12 px-4 sm:px-6 text-center bg-beige">
         <div class="container mx-auto max-w-screen-lg">
             <div class="flex flex-col items-center justify-center">
                 <!-- Decorative Icon -->
@@ -13,12 +13,12 @@
                 </div>
                 <h1 class="text-3xl font-bold text-dark-gray mb-2">Contact Me</h1>
                 <p class="text-md text-dark-gray mb-6">I'm here to help and answer any questions you might have. Feel free
-                    to
-                    reach out!</p>
+                    to reach out!</p>
                 <p class="text-lg font-semibold text-warm-gold">miriamaraujoweb@gmail.com</p>
             </div>
         </div>
     </section>
+
 
     <!-- Contact Form Section -->
     <section class="py-12" id="form-section">
