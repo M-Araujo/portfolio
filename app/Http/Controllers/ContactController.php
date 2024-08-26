@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\ContactFormMail;
 use Illuminate\Support\Facades\Mail;
+use Log;
 class ContactController extends Controller
 {
     public function index()
@@ -36,9 +37,10 @@ class ContactController extends Controller
 
         // Test sending email
         if (mail($to, $subject, $message, $headers)) {
-            echo "Email sent successfully!";
+            Log::info("Email sent successfully.");
         } else {
-            echo "Failed to send email.";
+            Log::info("Email failed.");
+            //echo "Failed to send email.";
         }
 
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
