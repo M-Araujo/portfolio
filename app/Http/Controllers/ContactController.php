@@ -23,7 +23,7 @@ class ContactController extends Controller
         ]);
 
         // Send the email
-        Mail::to('your-email@example.com')->send(new ContactFormMail($validatedData));
+        Mail::to(env('CONTACT_FORM_RECIPIENT'))->send(new ContactFormMail($validatedData));
 
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
