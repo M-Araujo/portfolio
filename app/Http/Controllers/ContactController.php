@@ -27,7 +27,7 @@ class ContactController extends Controller
         ]);
 
         // Retrieve the recipient email from the environment variable
-        $recipient = env('CONTACT_FORM_RECIPIENT');
+        $recipient = config('mail.from.address');
         Log::info($recipient);
 
         // Check if the recipient is set and not empty
