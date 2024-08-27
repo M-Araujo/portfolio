@@ -26,8 +26,18 @@ class ContactController extends Controller
             'message' => 'required|string|max:2000',
         ]);
 
-        // Send the email
-        Mail::to(env('CONTACT_FORM_RECIPIENT'))->send(new ContactFormMail($validatedData));
+        // Retrieve the recipient email from the environment variable
+        $recipient = env('CONTACT_FORM_RECIPIENT');
+
+        // Check if the recipient is set and not empty
+        if (!empty($recipient)) {
+            // Send the email
+            Mail::to($recipient)->send(new ContactFormMail($validatedData));
+            Log::info('Email sent successfully!');
+        } else {
+            // Handle the case where the recipient is not set
+            Log::info('Error: No recipient email is configured.');
+        }
 
         // Redirect back with a success message
         return redirect()->back()->with('success', 'Your message has been sent successfully!');
