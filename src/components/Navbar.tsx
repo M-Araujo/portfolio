@@ -8,12 +8,10 @@ export default function Navbar() {
 
             <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
 
-                {/* Logo */}
                 <div className="text-white font-semibold">
                     Miriam.dev
                 </div>
 
-                {/* Desktop nav */}
                 <nav className="hidden md:flex gap-8 text-sm text-white/70">
                     <a className="hover:text-white transition" href="#home">Home</a>
                     <a className="hover:text-white transition" href="#about">About</a>
@@ -22,7 +20,6 @@ export default function Navbar() {
                     <a className="hover:text-white transition" href="#contact">Contact</a>
                 </nav>
 
-                {/* Mobile button */}
                 <button
                     onClick={() => setOpen(!open)}
                     className="md:hidden text-white text-2xl"
@@ -32,7 +29,6 @@ export default function Navbar() {
 
             </div>
 
-            {/* Mobile menu */}
             <div
                 className={`
           md:hidden overflow-hidden transition-all duration-300 ease-in-out

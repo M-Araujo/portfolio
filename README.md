@@ -54,20 +54,6 @@ Previewing the Production Build
 Preview the production build locally:
 
 npm run preview
-Project Structure
-src/
-├── assets/
-├── components/
-├── pages/
-├── data/
-├── App.tsx
-└── main.tsx
-Features
-Responsive design
-Modern React architecture
-TypeScript support
-Fast development with Vite
-Component-based structure
-License
+
 
 This project is licensed under the MIT License.
