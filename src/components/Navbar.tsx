@@ -8,9 +8,9 @@ export default function Navbar() {
 
             <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
 
-                <div className="text-white font-semibold">
-                    Miriam.dev
-                </div>
+                <a href="#home" className="font-bold text-white">
+                    &lt;Miriam<span className="text-cyan-400">.dev</span> /&gt;
+                </a>
 
                 <nav className="hidden md:flex gap-8 text-sm text-white/70">
                     <a className="hover:text-white transition" href="#home">Home</a>
