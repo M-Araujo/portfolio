@@ -3,7 +3,7 @@ import Hero from "./sections/Hero";
 import Timeline from "./sections/Timeline/Timeline";
 import Skills from "./sections/Skills/Skills";
 import Contact from "./sections/Contact";
-import Projects from "./sections/Projects/projects";
+import Projects from "./sections/Projects/Projects";
 
 function App() {
   return (
